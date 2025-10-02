@@ -7,3 +7,5 @@ This app was built to make service booking easier for companies. It helps users 
 **Backend:** SpringBoot
 ## 🔗 Links  
 [Frontend repo](https://github.com/Jaros-777/slotify-frontend)
+## 🎥 Video  
+[](https://github.com/user-attachments/assets/a34000bf-576a-4773-96b2-561e86df398e)
