@@ -51,6 +51,14 @@
 
 ---
 
+## 🎥 Videos during production  
+
+https://github.com/user-attachments/assets/480a34f6-798a-4568-8750-84c7a21c7b37
+
+https://github.com/user-attachments/assets/0ccbfef3-0a69-44ea-a6d9-f4bcbecc701f
+
+---  
+
 ## 📝 Contributing
 
 We welcome contributions from developers, designers, and testers. To contribute:
