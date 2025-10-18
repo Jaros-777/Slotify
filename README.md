@@ -1,4 +1,5 @@
 # 🛎️ Slotify
+**UNDER DEVELOPMENT**
 
 **Slotify** is a reservation system where businesses can register, post their service offers, and clients can book appointments directly through the platform. For example, a hair salon can create an account, list its services, and clients can schedule appointments online. The platform also features an admin panel for managing appointments, calendars, and system settings.
 
@@ -7,8 +8,10 @@
 ## 🚀 Project Status
 
 **✅ Implemented:**
-- Home Page (UI only)  
-- Calendar (UI only, partially functional)  
+- Home Page
+- Auth  
+- Calendar (frontend: UI only, partially functional)
+- Calendar (banckend: reservations REST API - partially functional) 
 
 **⚙ In Progress / Planned:**
 - Client list  
@@ -18,7 +21,7 @@
 - Client panel (for viewing and booking appointments)  
 - Full calendar functionality with bookings  
 
-> Note: The project is under active development. Many features currently have only the UI implemented.
+> Note: The project is under active development. Many features may not work or be unavailable.  
 
 ---
 
@@ -35,7 +38,8 @@
 
 - **Frontend:** React / TypeScript / Tailwind  
 - **Backend:** Java / Sprinboot  
-- **Database:** PostgreSQL  
+- **Database:** PostgreSQL
+- **Testing:** H2 ( only for testing )
 - **Authentication:** JWT  
 
 ---
