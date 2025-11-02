@@ -8,7 +8,7 @@
 ## 🚀 Project Status
 
 **✅ Implemented:**
-- Home Page
+- Home Page ( partially )
 - Auth  
 - Calendar in Admin Panel
 
