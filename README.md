@@ -10,8 +10,7 @@
 **✅ Implemented:**
 - Home Page
 - Auth  
-- Calendar (frontend: UI only, partially functional)
-- Calendar (banckend: reservations REST API - partially functional) 
+- Calendar in Admin Panel
 
 **⚙ In Progress / Planned:**
 - Client list  
