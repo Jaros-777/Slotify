@@ -7,10 +7,14 @@
 
 ## 🚀 Project Status
 
-**✅ Implemented:**
-- Home Page ( partially )
-- Auth  
-- Calendar in Admin Panel
+**✅ Implemented:**  
+**Home panel**
+- Home Page ( partially )  
+- Auth
+  
+**Admin panel** 
+- Calendar  
+- Services   
 
 **⚙ In Progress / Planned:**
 - Client list  
