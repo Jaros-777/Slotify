@@ -13,16 +13,16 @@
 - Auth
   
 **Admin panel** 
-- Calendar  
-- Services   
+- Calendar - adding, deleting and modifiy events
+- Services - adding, deleting and modifiy your services
+- Booking - business profile setup (visiting card) with link, description 
 
 **⚙ In Progress / Planned:**
 - Client list  
 - Admin panel features:  
-  - Business profile setup (visiting card) with link, description, and services  
-  - General platform settings  
+  - General platform settings
+- Client reservation page
 - Client panel (for viewing and booking appointments)  
-- Full calendar functionality with bookings  
 
 > Note: The project is under active development. Many features may not work or be unavailable.  
 
@@ -60,9 +60,7 @@
 
 ## 🎥 Videos during production  
 
-https://github.com/user-attachments/assets/480a34f6-798a-4568-8750-84c7a21c7b37
-
-https://github.com/user-attachments/assets/0ccbfef3-0a69-44ea-a6d9-f4bcbecc701f
+https://youtu.be/AEzUhznLEJk
 
 ---  
 
