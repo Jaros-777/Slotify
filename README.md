@@ -59,8 +59,15 @@
 ---
 
 ## 🎥 Videos during production  
+Main page and admin panel ⬇️:  
 
 https://youtu.be/AEzUhznLEJk
+
+    
+Client reservation panel ⬇️:  
+
+https://github.com/user-attachments/assets/0faad582-c679-4fb8-ae7f-0ef82320e1ac
+
 
 ---  
 
