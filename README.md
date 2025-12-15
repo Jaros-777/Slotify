@@ -41,7 +41,7 @@
 
 - **Frontend:** React / TypeScript / Tailwind  
 - **Backend:** Java / Sprinboot  
-- **Database:** PostgreSQL
+- **Database:** PostgreSQL, SupaBase ( currently only for pictures storage )  
 - **Testing:** H2 ( only for testing )
 - **Authentication:** JWT  
 
