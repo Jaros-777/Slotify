@@ -1,0 +1,51 @@
+version: '3.9'
+
+services:
+  db:
+    image: postgres:15
+    container_name: slotify-db-full
+    environment:
+      POSTGRES_DB: ${DOCKER_DB_NAME:-postgres-full}
+      POSTGRES_USER: ${DOCKER_DB_USERNAME:-postgres}
+      POSTGRES_PASSWORD: ${DOCKER_DB_PASSWORD:-postgres}
+    ports:
+      - "5432:5432"
+    volumes:
+      - slotify-db-full-data:/var/lib/postgresql/data
+
+  backend:
+    build:
+      context: ./slotify-backend #or full path for example C:\Users\User\Desktop\slotify-backend
+      dockerfile: Dockerfile
+    container_name: slotify-backend-full
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+
+      LOCAL_DB_NAME: ${DOCKER_DB_NAME:-postgres-full}
+      LOCAL_DB_USERNAME: ${DOCKER_DB_USERNAME:-postgres}
+      LOCAL_DB_PASSWORD: ${DOCKER_DB_PASSWORD:-postgres}
+
+      SUPABASE_BUCKET_URL: ${SUPABASE_BUCKET_URL:-http://localhost}
+      SUPABASE_BUCKET_KEY: ${SUPABASE_BUCKET_KEY:-dummy-key}
+      SUPABASE_BUCKET_NAME: ${SUPABASE_BUCKET_NAME:-dummy-bucket}
+
+      JWT_SECRET_KEY: ${JWT_SECRET_KEY:-verylongsecretkeythatis32charsverylongsecretkeythatis32chars}
+    depends_on:
+      - db
+  
+  frontend:
+      build:
+        context: ./slotify-frontend #or full path for example C:\Users\User\Desktop\slotify-frontend
+        dockerfile: Dockerfile
+      container_name: slotify-frontend-full
+      ports:
+        - "3000:80"
+      environment:
+        VITE_APP_URL: http://localhost:8080
+      depends_on:
+        - backend
+
+volumes:
+  slotify-db-full-data:
