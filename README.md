@@ -1,88 +1,168 @@
 # 🛎️ Slotify
-**UNDER DEVELOPMENT**
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=Vite&logoColor=white)
+![React](https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=black&style=for-the-badge)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![License](https://img.shields.io/github/license/Jaros-777/slotify-frontend?style=for-the-badge)
 
-**Slotify** is a reservation system where businesses can register, post their service offers, and clients can book appointments directly through the platform. For example, a hair salon can create an account, list its services, and clients can schedule appointments online. The platform also features an admin panel for managing appointments, calendars, and system settings.
 
----
 
-## 🚀 Project Status
+**Slotify** is an educational, full-stack appointment booking application inspired by **Reservio**.  
+This project was built for learning purposes and as a portfolio piece, showcasing modern web development practices, clean architecture, and deployment strategies.
 
-**✅ Implemented:**  
-**Home panel**
-- Home Page ( partially )  
-- Auth
-  
-**Admin panel** 
-- Calendar - adding, deleting and modifiy events
-- Services - adding, deleting and modifiy your services
-- Booking - business profile setup (visiting card) with link, description 
-
-**⚙ In Progress / Planned:**
-- Client list  
-- Admin panel features:  
-  - General platform settings
-- Client reservation page
-- Client panel (for viewing and booking appointments)  
-
-> Note: The project is under active development. Many features may not work or be unavailable.  
+> ⚠️ This is **not a commercial project**. It is intended purely for educational purposes.
 
 ---
 
-## 🗂 Repositories
+## 🌐 Live Demo
 
-- **💻 Frontend:** [Slotify-Frontend](https://github.com/Jaros-777/slotify-frontend)  
-- **🖥 Backend:** [Slotify-Backend](https://github.com/Jaros-777/slotify-backend)  
+### [🚀 Try Slotify Online](https://slotify7.netlify.app/)
 
-> Follow the setup instructions in each repository to install dependencies and run the application.
+[![🚀 Try Slotify Online](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge&logo=netlify&logoColor=blue)](https://slotify7.netlify.app/)
 
----
 
-## 🛠 Tech Stack (Overview)
+### 🎥 Video
 
-- **Frontend:** React / TypeScript / Tailwind  
-- **Backend:** Java / Sprinboot  
-- **Database:** PostgreSQL, SupaBase ( currently only for pictures storage )  
-- **Testing:** H2 ( only for testing )
-- **Authentication:** JWT  
+[![Obejrzyj film na YouTube](https://img.youtube.com/vi/AEzUhznLEJk/maxresdefault.jpg)](https://youtu.be/AEzUhznLEJk)
 
----
+## 🌟 Features
 
-## 📌 Features (Planned)
-
-- **Company Registration:** Businesses can create accounts and manage services.  
-- **Service Listings:** Add, edit, and delete services with descriptions and pricing.  
-- **Client Booking:** Clients can view services and book appointments.  
-- **Admin Panel:** Manage appointments, business profile, and general settings.  
-- **Notifications:** Email notifications.  
-- **Payments:** Sandbox environment for testing payments.  
+- 🧑‍🤝‍🧑 User registration, login, and account management  
+- 📅 Create, edit, and delete bookings  
+- 🕒 View available time slots and manage appointments  
+- 📱 Mobile view available **only on Home and Booking pages**  
+- 💻 Admin interface **desktop-only**  
+- 🛎️ Customers can book services online  
+- 🌴 Vacation mode for users  
+- 📋 Client list with CSV export  
+- 🎨 Responsive design and clean UI  
+- 🏗️ Full-stack separation: **Frontend** + **Backend**  
+- 🐳 Easy setup with **Docker Compose** or manual setup  
+- 🧹 Clean, modular, and maintainable codebase for learning purposes  
 
 ---
 
-## 🎥 Videos during production  
-Main page and admin panel ⬇️:  
+## 🛠 Technologies Used
 
-https://youtu.be/AEzUhznLEJk
+### Frontend  
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-0db7ed?logo=docker&logoColor=white)
+![Axios](https://img.shields.io/badge/Axios-5A29E4?logo=axios&logoColor=white)
+* **Framework:** React.JS + TypeScript + Vite  
+* **Styling:** Tailwind CSS / SCSS  
+* **Containerization:** Docker   
+* **API Requests:** Axios
 
-    
-Client reservation panel ⬇️:  
+### Backend
+![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white)
+![Spring](https://img.shields.io/badge/Spring-6DB33F?logo=spring&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?logo=postgresql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?logo=supabase&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?logo=apachemaven&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-0db7ed?logo=docker&logoColor=white)
+* **Language:** Java 20+
+* **Framework:** Spring Boot 3.x
+* **Database (local):** PostgreSQL, Supabase (only for storage profiles and services pictures)
+* **Database (prod):** Supabase
+* **Build Tool:** Maven
+* **Containerization:** Docker
 
-https://github.com/user-attachments/assets/0faad582-c679-4fb8-ae7f-0ef82320e1ac
-
-
----  
-
-## 📝 Contributing
-
-We welcome contributions from developers, designers, and testers. To contribute:
-
-1. Fork this repository.  
-2. Make changes in a feature branch.  
-3. Submit a pull request with an explanation of your changes.  
-
-Please follow coding standards and update documentation when necessary.
+### DevOps / Deployment
+![Docker](https://img.shields.io/badge/Docker-0db7ed?logo=docker&logoColor=white)
+![Docker Compose](https://img.shields.io/badge/Docker_Compose-2496ED?logo=docker&logoColor=white)
+- **Docker & Docker Compose** for containerized setup  
+- Environment variables for configuration  
+- Ready for local development and deployment  
 
 ---
+
+## 📦 Installation & Setup
+
+### 🐳 Running Slotify with Docker Compose
+
+You can run the full Slotify application using Docker Compose. Follow these steps carefully.
+
+### 1️⃣ Clone the repositories
+
+Clone the **main repo**, as well as **frontend** and **backend** repositories:
+
+```bash
+# Main repo
+git clone https://github.com/Jaros-777/Slotify.git
+cd Slotify
+
+# Frontend repo
+git clone https://github.com/Jaros-777/slotify-frontend.git frontend
+
+# Backend repo
+git clone https://github.com/Jaros-777/slotify-backend.git backend
+```
+Make sure the folder structure looks like this:
+```bash
+Slotify/
+├─ slotify-frontend/      <-- React frontend project
+├─ slotify-backend/       <-- Spring Boot backend project
+└─ docker-compose.yml
+```
+### 2️⃣ Prepare Docker Compose file
+1. Locate the file named:
+```docker-compose.example.yml```
+
+2. Rename it to remove ".example":
+```mv docker-compose.example.yml docker-compose.yml```
+
+3. Edit paths if needed in ```docker-compose.yml``` to point to the correct frontend and backend folders. For example:
+```bash
+services:
+  backend:
+    build:
+      context: ./backend    # <- make sure this points to your backend folder or paste full path e.g. C:\Users\User\Desktop\slotify-backend
+
+  frontend:
+    build:
+      context: ./frontend   # <- make sure this points to your frontend folder or paste full path e.g. C:\Users\User\Desktop\slotify-frontend
+```
+This step is important if you cloned the repos into custom folder names.
+
+### 3️⃣ Run Docker Compose
+Build and start all services:  
+```docker-compose up --build```
+- Backend will be available at: http://localhost:8080  
+- Frontend will be available at: http://localhost:3000  
+
+
+
+
+### 🖥️ Run Frontend or Backend separately
+To run frontend or backend separately, please go to the respective repositories for setup instructions:
+- Frontend repo - https://github.com/Jaros-777/slotify-frontend  
+- Backend repo - https://github.com/Jaros-777/slotify-backend
+
+Each repo contains detailed instructions on installation, environment variables, and running locally.
+
+---
+
+### 💡 Notes
+- This project is a portfolio and educational project, not intended for production.
+- Designed to showcase modern web development practices and full-stack architecture.
+
+---
+
+### 👤 Author
+Filip Jarocki - [GitHub profile](https://github.com/Jaros-777)
+
+---
+
+### 🖥️ Other repos
+Frontend repo - https://github.com/Jaros-777/slotify-frontend  
+Backend repo - https://github.com/Jaros-777/slotify-backend
 
 ## ⚖ License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+
