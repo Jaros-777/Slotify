@@ -15,7 +15,7 @@ services:
 
   backend:
     build:
-      context: ./slotify-backend #or full path for example C:\Users\User\Desktop\slotify-backend
+      context: ./slotify-backend #or full path e.g. C:\Users\User\Desktop\slotify-backend
       dockerfile: Dockerfile
     container_name: slotify-backend-full
     ports:
@@ -37,7 +37,7 @@ services:
   
   frontend:
       build:
-        context: ./slotify-frontend #or full path for example C:\Users\User\Desktop\slotify-frontend
+        context: ./slotify-frontend #or full path e.g. C:\Users\User\Desktop\slotify-frontend
         dockerfile: Dockerfile
       container_name: slotify-frontend-full
       ports:
