@@ -16,16 +16,13 @@ This project was built for learning purposes and as a portfolio piece, showcasin
 
 ---
 
-## 🌐 Live Demo
-
-### [🚀 Try Slotify Online](https://slotify7.netlify.app/)
-
-[![🚀 Try Slotify Online](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge&logo=netlify&logoColor=blue)](https://slotify7.netlify.app/)
 
 
-### 🎥 Video
+## 🎥 Video
 
-[![Obejrzyj film na YouTube](https://img.youtube.com/vi/AEzUhznLEJk/maxresdefault.jpg)](https://youtu.be/AEzUhznLEJk)
+[![Watch the demo](https://img.youtube.com/vi/rlHsbHehBqY/maxresdefault.jpg)](https://youtu.be/rlHsbHehBqY)
+
+
 
 ## 🌟 Features
 
