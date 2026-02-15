@@ -15,8 +15,8 @@ This project was built for learning purposes and as a portfolio piece, showcasin
 > ⚠️ This is **not a commercial project**. It is intended purely for educational purposes.
 
 ---
-
-
+# 🌍 Live Demo
+### 🔗[LIVE DEMO](https://slotify7.netlify.app/)
 
 ## 🎥 Video
 
