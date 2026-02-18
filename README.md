@@ -62,7 +62,7 @@ This project was built for learning purposes and as a portfolio piece, showcasin
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?logo=supabase&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-C71A36?logo=apachemaven&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-0db7ed?logo=docker&logoColor=white)
-* **Language:** Java 20+
+* **Language:** Java 21
 * **Framework:** Spring Boot 3.x
 * **Database (local):** PostgreSQL, Supabase (only for storage profiles and services pictures)
 * **Database (prod):** Supabase
