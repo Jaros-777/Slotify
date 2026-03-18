@@ -16,7 +16,16 @@ This project was built for learning purposes and as a portfolio piece, showcasin
 
 ---
 # 🌍 Live Demo
-### 🔗[LIVE DEMO](https://slotify7.netlify.app/)
+### 🔗[LIVE DEMO - MAIN PAGE](https://slotify7.netlify.app/)
+### 🔗[LIVE DEMO - EXAMPLE CLIENT PAGE](https://slotify7.netlify.app/slotify)
+
+
+---
+## 🖥️ Other repos
+Frontend repo - https://github.com/Jaros-777/slotify-frontend  
+Backend repo - https://github.com/Jaros-777/slotify-backend
+
+---
 
 ## 🎥 Video
 
@@ -154,10 +163,6 @@ Each repo contains detailed instructions on installation, environment variables,
 Filip Jarocki - [GitHub profile](https://github.com/Jaros-777)
 
 ---
-
-### 🖥️ Other repos
-Frontend repo - https://github.com/Jaros-777/slotify-frontend  
-Backend repo - https://github.com/Jaros-777/slotify-backend
 
 ## ⚖ License
 
